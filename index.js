@@ -6,6 +6,7 @@ for(var i = 0; i < numberOfDrumButtons; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function () {
         var buttonInnerHtml = this.innerHTML;
         makeSound(buttonInnerHtml);
+        animateButton(buttonInnerHtml);
     });
 }
 
@@ -13,6 +14,7 @@ for(var i = 0; i < numberOfDrumButtons; i++) {
 
 document.addEventListener("keydown", function (event) {
     makeSound(event.key);
+    animateButton(event.key);
 });
 
 // utility function to make sound
@@ -56,4 +58,14 @@ function makeSound(character) {
         
         default: console.log(buttonInnerHtml);
     }
+}
+
+// utility function to animate the pressed button
+
+function animateButton(currentKey) {
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function () {
+        activeButton.classList.remove("pressed");
+    }, 100); // waits 100 ms before executing the function
 }
