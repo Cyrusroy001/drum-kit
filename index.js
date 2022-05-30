@@ -21,39 +21,39 @@ document.addEventListener("keydown", function (event) {
 
 function makeSound(character) {
     switch (character) {
-        case "w":
-            var tom1 = new Audio("sounds/tom-1.mp3");
-            tom1.play();
+        case "q":
+            var q = new Audio("sounds/bruh.mp3");
+            q.play();
             break;
             
-        case "a":
-            var tom2 = new Audio("sounds/tom-2.mp3");
-            tom2.play();
+        case "w":
+            var w = new Audio("sounds/emo-dmg.mp3");
+            w.play();
             break;
 
-        case "s":
-            var tom3 = new Audio("sounds/tom-3.mp3");
-            tom3.play();
+        case "e":
+            var e = new Audio("sounds/are-you-sore.mp3");
+            e.play();
             break;
 
-        case "d":
-            var tom4 = new Audio("sounds/tom-4.mp3");
-            tom4.play();
+        case "r":
+            var r = new Audio("sounds/hentai-moan.mp3");
+            r.play();
             break;
 
-        case "j":
-            var snare = new Audio("sounds/snare.mp3");
-            snare.play();
+        case "t":
+            var t = new Audio("sounds/the-lion-sleeps-tonight.mp3");
+            t.play();
             break;
 
-        case "k":
-            var crash = new Audio("sounds/crash.mp3");
-            crash.play();
+        case "y":
+            var y = new Audio("sounds/what-da-dog-doin.mp3");
+            y.play();
             break;
 
-        case "l":
-            var kick = new Audio("sounds/kick-bass.mp3");
-            kick.play();
+        case "u":
+            var u = new Audio("sounds/windows-xp.mp3");
+            u.play();
             break;
         
         default: console.log(buttonInnerHtml);

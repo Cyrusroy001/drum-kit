@@ -8,7 +8,14 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
+  margin-bottom: 10px;
+}
 
+h2 {
+  font-size: 2rem;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 0;
 }
 
 footer {
@@ -16,32 +23,32 @@ footer {
   font-family: sans-serif;
 }
 
+.q {
+  background-image: url(images/hentai-moan.jpg);
+}
+
 .w {
-  background-image: url(images/tom1.png);
+  background-image: url(images/are-you-sore.jpg);
 }
 
-.a {
-  background-image: url(images/tom2.png);
+.e {
+  background-image: url(images/the-lion-sleeps-tonight.jpg);
 }
 
-.s {
-  background-image: url(images/tom3.png);
+.r {
+  background-image: url(images/windows-xp.jpg);
 }
 
-.d {
-  background-image: url(images/tom4.png);
+.t {
+  background-image: url(images/emo-dmg.jpg);
 }
 
-.j {
-  background-image: url(images/snare.png);
+.y {
+  background-image: url(images/bruh.jpg);
 }
 
-.k {
-  background-image: url(images/crash.png);
-}
-
-.l {
-  background-image: url(images/kick.png);
+.u {
+  background-image: url(images/what-da-dog-doin.jpg);
 }
 
 .set {
